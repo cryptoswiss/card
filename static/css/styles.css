@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500&display=swap');
+body {
+	background-color: #1919cf;
+	text-align: center;
+}
+
+
+/* NavBar */
+
+.navbar-brand {
+	color: #fafafa !important;
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.navbar {
+	background-color: #1919cf !important;
+}
+
+.centered {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.wrapped {
+	display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	color: #121212;
+}
+
+p.light {
+	color: #fafafa;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+span.lightThin {
+	color: #fafafa;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+
+/* Prices */
+
+.container-separate {
+	border-right: 1px solid #fafafa;
+}
+
+img.img-card {
+	margin: 2em 0 0 0;
+	width: 280px;
+}
+
+img.img-brand {
+	width: 36px;
+	vertical-align: middle;
+	height: 100%;
+	display: inline-block;
+	margin-right: .5em;
+}
+
+.title {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+	text-align: center;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: .5em;
+	color: #fafafa;
+}
+
+.subtitle {
+	font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+span.subtitle-bold {
+	font-weight: 500;
+}
+
+.container-dark {
+	width: 100%;
+	overflow: hidden;
+	background: #121212;
+	margin-top: 2em;
+}
+
+.modal-margins {
+	margin: 2em 0;
+}
+
+.btn-swisscard {
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 100px;
+	background: #fafafa;
+	color: #121212;
+	border: 2px solid #fafafa;
+	transition: 1s;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none !important;
+	text-transform: none !important;
+	margin: 1em;
+}
+
+.btn-swisscard:hover {
+	background: transparent;
+	color: #fafafa;
+	border: 2px solid #fafafa;
+	transition: 1s;
+}
+
+
+/* Forms */
+
+.modal-content {
+	background-color: #fafafa;
+	border: 0;
+	border-radius: 30px;
+}
+
+.modal-content h1,
+.modal-content p {
+	color: #121212;
+}
+
+.close {
+	color: #fafafa;
+}
+
+.label {
+	color: #fafafa !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.container-separate {
+		border: none;
+	}
+}

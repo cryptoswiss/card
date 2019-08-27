@@ -1,0 +1,39 @@
+import React from "react";
+
+class NavBar extends React.Component {
+  render() {
+    return (
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/">
+          <img src="/static/img/swisscard-brand.svg" alt="swisscard-brand" className="img-brand" />
+          swisscard
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    );
+  }
+}
+
+export default NavBar;
+

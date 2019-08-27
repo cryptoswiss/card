@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="130px" viewBox="0 0 170 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57 (83077) - https://sketch.com -->
+    <title>borderless-card</title>
+    <desc>Created with Sketch.</desc>
+    <g id="borderless-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 3.500000)" stroke-width="6">
+            <rect id="Rectangle" stroke="#000000" x="3" y="3" width="159.5" height="116.900485" rx="8"></rect>
+            <path d="M4.24595342,35.5 L162.339623,35.5" id="Path" stroke="#111111"></path>
+            <path d="M16.488441,55.3862455 L48.248873,55.3862455" id="Path-2" stroke="#111111"></path>
+        </g>
+    </g>
+</svg>
