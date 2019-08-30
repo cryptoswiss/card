@@ -90,26 +90,26 @@ class Register extends React.Component {
               
       
       
-              <div class="container-account">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <h1 class="text-center">Register</h1>
+              <div className="container-account">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <h1 className="text-center">Register</h1>
                     </div>
                   </div>
                 </div>
       
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-10 m-auto">
-                      <div class="form-group">
-                        <form class="form-container" action="/register" method="POST">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-10 m-auto">
+                      <div className="form-group">
+                        <form className="form-container" action="/register" method="POST">
                           <label for="name">Name</label>
                           
                           <input
                           type="text"
                           name="name"
-                          class="form-control animated fadeIn"
+                          className="form-control animated fadeIn"
                           onChange={(e) => this.setState({ name: e.target.value })}
                   
                           />
@@ -119,7 +119,7 @@ class Register extends React.Component {
                           <input
                           type="email"
                           name="email"
-                          class="form-control animated fadeIn"
+                          className="form-control animated fadeIn"
                           onChange={(e) => this.setState({ email: e.target.value })}
                   
                           />
@@ -130,17 +130,17 @@ class Register extends React.Component {
                             type="password"
                             id="password"
                             name="password"
-                            class="form-control animated fadeIn"
+                            className="form-control animated fadeIn"
                           />
                         </form>
       
-                        <div class="modal-margins">
-                          <div class="row">
-                            <div class="col-md-8 m-auto">
+                        <div className="modal-margins">
+                          <div className="row">
+                            <div className="col-md-8 m-auto">
       
                             <button
                             type="submit"
-                            class="btn btn-primary btn-block"
+                            className="btn btn-primary btn-block"
                             onClick={() => this.putDataToDB(this.state)}>
                             Register
                             </button>
@@ -149,9 +149,9 @@ class Register extends React.Component {
                           </div>
                         </div>
       
-                        <p class="lead mt-4">
+                        <p className="lead mt-4">
                           Have An Account?{" "}
-                          <a class="register" href="/users/login">
+                          <a className="register" href="/users/login">
                             Login
                           </a>
                         </p>

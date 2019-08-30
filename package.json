@@ -22,5 +22,13 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptoswiss/card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cryptoswiss/card/issues"
+  },
+  "homepage": "https://github.com/cryptoswiss/card#readme"
 }
